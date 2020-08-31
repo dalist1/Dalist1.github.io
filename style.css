@@ -263,8 +263,9 @@ body {
 /*Social Media Icons */
 
 .social-container {
-  width: 300px;
-  margin: 1vh auto;
+  padding-top: 20px;
+  width: 250px;
+  margin: -4vh auto;
   text-align: center;
 }
 
