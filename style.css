@@ -211,7 +211,7 @@ body {
 .blog-slider__pagination {
   position: absolute;
   z-index: 21;
-  right: 2px;
+  right: 1px;
   width: 11px !important;
   text-align: center;
   left: auto !important;
