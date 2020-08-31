@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 * {
   box-sizing: border-box;
 }
@@ -187,8 +188,8 @@ body {
 }
 .blog-slider__button {
   display: inline-flex;
-  background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
-  padding: 15px 35px;
+  background: linear-gradient(45deg, #00B5F5, #002A8F);
+  padding: 10px 30px;
   border-radius: 50px;
   color: #fff;
   text-decoration: none;
@@ -210,7 +211,7 @@ body {
 .blog-slider__pagination {
   position: absolute;
   z-index: 21;
-  right: 20px;
+  right: 2px;
   width: 11px !important;
   text-align: center;
   left: auto !important;
@@ -256,4 +257,60 @@ body {
     height: 11px;
     width: 30px;
   }
+}
+
+/*Social Media Icons */
+
+.social-container {
+  width: 300px;
+  margin: 1vh auto;
+  text-align: center;
+}
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+.social-icons li {
+  display: inline-block;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1.2em;
+}
+.social-icons i {
+  color: #fff;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  transition: all 265ms ease-out;
+}
+.social-icons a {
+  display: inline-block;
+}
+.social-icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, #00B5F5, #002A8F);
+  transition: all 265ms ease-out;
+}
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+.social-icons a:hover i {
+  transform: scale(1.7);
+  -ms-transform: scale(1.7);
+  -webkit-transform: scale(1.7);
+  color: #00B5F5;
+  background: -webkit-linear-gradient(45deg, #00B5F5, #002A8F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
 }
