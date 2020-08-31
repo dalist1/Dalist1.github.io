@@ -187,7 +187,7 @@ body {
 }
 .blog-slider__button {
   display: inline-flex;
-  background-image: linear-gradient(147deg, #69E781 0%, #69E781 74%);
+  background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
   padding: 15px 35px;
   border-radius: 50px;
   color: #fff;
@@ -242,13 +242,13 @@ body {
   height: 11px;
   display: block;
   border-radius: 10px;
-  background: #69E781;
+  background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
   opacity: 0.2;
   transition: all .3s;
 }
 .blog-slider__pagination .swiper-pagination-bullet-active {
   opacity: 1;
-  background: #69E781;
+  background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
   height: 30px;
 }
 @media screen and (max-width: 768px) {
