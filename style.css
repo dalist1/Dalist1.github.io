@@ -171,9 +171,10 @@ body {
 }
 .blog-slider__code {
   color: #7b7992;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   display: block;
   font-weight: 500;
+  margin-top: 20px;
 }
 .blog-slider__title {
   font-size: 24px;
