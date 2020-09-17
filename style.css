@@ -263,9 +263,9 @@ body {
 /*Social Media Icons */
 
 .social-container {
-  padding-top: 20px;
-  width: 250px;
-  margin: -4vh auto;
+  padding-top: 60px;
+  width: 270px;
+  margin: -5vh auto;
   text-align: center;
 }
 
@@ -283,8 +283,8 @@ body {
 .social-icons i {
   color: #fff;
   position: absolute;
-  top: 12px;
-  left: 12px;
+  top: 16px;
+  left: 16px;
   transition: all 265ms ease-out;
 }
 .social-icons a {
@@ -295,8 +295,8 @@ body {
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
   content: " ";
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 100%;
   display: block;
   background: linear-gradient(45deg, #00B5F5, #002A8F);
@@ -315,4 +315,70 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
+}
+
+
+/*Custom Icons */
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?l5y54y');
+  src:  url('fonts/icomoon.eot?l5y54y#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?l5y54y') format('truetype'),
+    url('fonts/icomoon.woff?l5y54y') format('woff'),
+    url('fonts/icomoon.svg?l5y54y#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 20px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-thm:before {
+  content: "\e900";
+  font-size: 20px ;
+}
+
+
+/* Second one */
+
+@font-face {
+  font-family: 'icomoon2';
+  src:  url('fonts/icomoon2.eot?o2u1ju');
+  src:  url('fonts/icomoon2.eot?o2u1ju#iefix') format('embedded-opentype'),
+    url('fonts/icomoon2.ttf?o2u1ju') format('truetype'),
+    url('fonts/icomoon2.woff?o2u1ju') format('woff'),
+    url('fonts/icomoon2.svg?o2u1ju#icomoon2') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon2-"], [class*=" icon2-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon2' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 20px;
+}
+
+.icon2-htb:before {
+  content: "\e900";
+  font-size: 20px ;
 }
