@@ -177,7 +177,7 @@ body {
   margin-top: 20px;
 }
 .blog-slider__title {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 700;
   color: #0d0925;
   margin-bottom: 20px;
@@ -283,11 +283,12 @@ body {
 .social-icons i {
   color: #fff;
   position: absolute;
-  top: 16px;
-  left: 16px;
+  top: 14px;
+  left: 14px;
   transition: all 265ms ease-out;
 }
 .social-icons a {
+  font-size: 24px;
   display: inline-block;
 }
 .social-icons a:before {
@@ -340,7 +341,7 @@ body {
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 20px;
+  line-height: 27px;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
@@ -349,7 +350,7 @@ body {
 
 .icon-thm:before {
   content: "\e900";
-  font-size: 20px ;
+  font-size: 26px ;
 }
 
 
@@ -375,10 +376,10 @@ body {
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 20px;
+  line-height: 27px;
 }
 
 .icon2-htb:before {
   content: "\e900";
-  font-size: 20px ;
+  font-size: 26px ;
 }
